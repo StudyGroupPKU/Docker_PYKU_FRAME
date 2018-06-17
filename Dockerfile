@@ -1,7 +1,7 @@
-# 2018-06-17
+# 2018-06-18
 FROM skyblue1294/pyku_root
 MAINTAINER JUNHO.LEE<skyblue1294@126.com>
-ENV REFRESHED_AT 2018-06-17
+ENV REFRESHED_AT 2018-06-18
 #RUN yum -y -q upgrade
 RUN yum install -y vim
 RUN yum install -y evince
