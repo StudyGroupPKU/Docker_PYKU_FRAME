@@ -12,6 +12,7 @@ RUN cd /home && git clone https://github.com/StudyGroupPKU/fruit_team.git
 RUN echo 'The PYKU files are from "https://github.com/StudyGroupPKU". Check if you are Authorized.' > /root/README.txt
 RUN echo 'Working Directory is here : /home/PYKU_Analysis/' >> /root/README.txt
 RUN echo 'Try to copy "execute_docker_ROOT.py", which is locates on "/home/Project-pre", to "/home/PYKU_Analysis/" for launching PYKU frame' >> /root/README.txt
+RUN echo '..TEST..' >> /root/README.txt
 RUN echo 'alias vi="vim"' >> /root/.bashrc
 RUN echo 'alias pyku="cd /home/PYKU_Analysis"' >> /root/.bashrc
 RUN echo 'cd /home/PYKU_Analysis' >> /root/.bashrc
